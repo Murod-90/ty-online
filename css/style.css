@@ -87,7 +87,38 @@ body {
  
 }
 
-.islom {}
+.islom {
+
+}
+.islom__left-content{
+  width: 340px;
+  background: 
+  #FFFFFF;
+}
+
+.islom__time{
+  width: 40px;
+  font-size: 15px;
+  line-height: 15px;
+  color: #1F1E1D;
+  display: block;
+  
+
+}
+.islom__text{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #524F4A;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.gold{
+color: #EC9605;
+font-size: 13px;
+font-weight: 400;
+}
+
 
 
 .zayniddin {}
