@@ -68,13 +68,23 @@ body {
   height: 420px;
   background: rgba(255, 255, 255, 0.6);
   display: flex;
+  justify-content: space-between;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) translateY(-200%);
   opacity: 1;
   transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
+  border-radius: 10px;
+  padding: 70px;
+  
+}
+.header__list{
+ 
+  font-size: 70%;
+}
+.title{
+ 
 }
 
 .islom {}
@@ -83,6 +93,21 @@ body {
 .zayniddin {}
 
 
-.akbar {}
+.akbar {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .shox {}
+
+
