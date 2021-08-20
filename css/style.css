@@ -83,8 +83,133 @@ body {
  
   font-size: 70%;
 }
-.title{
- 
+.islom__N1{
+  margin-top: 30px;
+  display: flex;
+
+}
+.islom__left{
+  border-radius: 8px;
+  width: 330px;
+  height: 576px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  background: #FFFFFF;
+  overflow: auto;
+  
+
+}
+.islom__left-title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #1F1E1D;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.islom__left-link{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-bottom: 15px;
+}
+.islom__left-time{
+  width: 40px;
+  display: block;  
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  color: #1F1E1D;
+
+}
+.islom__left-city{
+  padding-left: 10px;
+  padding-right: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  color: #524F4A;
+}
+.islom__left-gold{
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 13px;
+  color:   #EC9605
+  ;
+
+}
+.islom__content-right{
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 30px;
+
+
+}
+.islom__content_main-item{
+  width: 1050px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.islom__right-item{
+
+  width: 188px;
+  height: 80px;
+  background: #013FBE;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+}
+
+.islom__right-item>a>p{
+  font-size: 18px;
+  line-height: 18px;
+font-weight: 600;
+color: #FFFFFF
+;
+}
+.islom__right-title{
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+color: #FFFFFF;
+}
+.live{
+  width: 45px;
+  height: 18px;
+  background: #16BA57;
+  border-radius: 55px;
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-left: auto;
+
+
+}
+.islom__right-item_2{
+  background:#EC9605 ;
+
+}
+.islom__right-item_1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #EC9605;
+}
+.islom__right-item_1>img{
+  border-radius: 8px;
 }
 
 .islom {}
